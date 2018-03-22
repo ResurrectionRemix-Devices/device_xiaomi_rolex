@@ -402,4 +402,7 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Auto-brightness during doze -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 </resources>
