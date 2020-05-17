@@ -108,6 +108,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
+    debug.sf.enable_hwc_vds=1 \
     debug.enable.sglscale=1 \
     debug.mdpcomp.logs=0 \
     debug.sdm.support_writeback=0 \
@@ -118,10 +119,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
     persist.hwc.enable_vds=1 \
     persist.hwc.mdpcomp.enable=true \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0 \
+    ro.surface_flinger.max_virtual_display_dimension=4096 \
+    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     vendor.display.disable_rotator_split=1 \
     vendor.display.disable_skip_validate=1 \
     vendor.display.perf_hint_window=50 \
-    vendor.gralloc.enable_fb_ubwc=1
+    vendor.gralloc.enable_fb_ubwc=1 \
+    vendor.video.disable.ubwc=1
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
