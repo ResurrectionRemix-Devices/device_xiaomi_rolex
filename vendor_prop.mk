@@ -82,7 +82,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608 \
     ro.vendor.display.cabl=2 \
     ro.sf.lcd_density=295 \
-    vendor.display.enable_default_color_mode=1
+    vendor.display.enable_default_color_mode=1 \
+    debug.sdm.support_writeback=0 \
+    debug.sf.disable_backpressure=1 \
+    debug.sf.enable_hwc_vds=1
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
