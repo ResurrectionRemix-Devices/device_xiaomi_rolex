@@ -397,7 +397,7 @@
     <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
     <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
     <integer name="config_sysCPUTempMultiplier">1</integer>
-    <integer name="config_sysBatteryTempMultiplier">1</integer>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
 
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
