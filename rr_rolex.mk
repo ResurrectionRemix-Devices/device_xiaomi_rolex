@@ -41,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="rolex" \
     PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 BUILD_RR_WALLPAPERS := true
