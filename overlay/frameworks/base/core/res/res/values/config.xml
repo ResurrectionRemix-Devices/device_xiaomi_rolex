@@ -406,4 +406,6 @@
    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
    <bool name="config_displayBlanksAfterDoze">true</bool>
 
+   <bool name="config_powermenuadvanceddefault">true</bool>
+
 </resources>
