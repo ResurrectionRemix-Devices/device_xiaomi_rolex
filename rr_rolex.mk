@@ -26,6 +26,13 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit PixelGApps
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gapps/gapps.mk)
+DEVICE_PACKAGE_OVERLAYS += \
+	$(LOCAL_PATH)/overlay-gms
+endif
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
